@@ -1,6 +1,6 @@
-import * as express from "express";
+import express from "express";
 import "express-async-errors";
-import * as cors from "cors";
+import cors from "cors";
 import * as methodOverride from "method-override";
 import { engine } from "express-handlebars";
 import { handleError } from "./utils/errors";
